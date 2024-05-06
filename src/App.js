@@ -29,10 +29,10 @@ function App({ val, fun }) {
 
   return (
     <>
-      <div className=' text-2xl font-medium flex justify-between'>
+      <div className='p-2 text-2xl font-medium flex justify-between'>
         {/* <div className='px-3'><FontAwesomeIcon icon={faCodepen} /></div> */}
         <div><img src={Img} className='app-logo' alt='logo'/></div>
-        <div className=''>CodePen</div>
+        <div className='px-2'>CodeCanvas</div>
         <div  className='ml-auto px-3'>
       <button onClick={fun} className='  text-black  hover:text-blue-500 transition-colors duration-300'>Go To Home</button>
       </div>
