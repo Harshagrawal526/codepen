@@ -29,12 +29,12 @@ function App({ val, fun }) {
 
   return (
     <>
-      <div className='p-2 text-2xl font-medium flex justify-between'>
+      <div className='bg-orange-400 bg-opacity-70 p-2 text-2xl font-medium flex justify-between'>
         {/* <div className='px-3'><FontAwesomeIcon icon={faCodepen} /></div> */}
         <div><img src={Img} className='app-logo' alt='logo'/></div>
         <div className='px-2'>CodeCanvas</div>
         <div  className='ml-auto px-3'>
-      <button onClick={fun} className='  text-black  hover:text-blue-500 transition-colors duration-300'>Go To Home</button>
+      <button onClick={fun} className='  text-black  hover:text-blue-400 transition-colors duration-300'>Go To Home</button>
       </div>
       </div>
 
@@ -64,8 +64,8 @@ function App({ val, fun }) {
           value={js}
           onChange={setJs}
         />
-      </div>
-      <div className='border-4 rounded-xl text-xl flex justify-between'>OUTPUT</div>
+      </div >
+      <div className='bg-orange-400 text-center border-4 rounded-xl text-xl'>OUTPUT</div>
       <div className="pane">
         <iframe
           srcDoc={srcDoc}

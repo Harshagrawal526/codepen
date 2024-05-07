@@ -7,7 +7,7 @@ body {
 }
 
 .top-pane {
-  background-color: #e1e4eb;
+  background-color: #afb7cc;
 }
 
 .pane {
@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: .5rem;
-  background-color: #323232;
+  background-color: #b56a6a00;
 }
 
 .editor-container.collapsed {
@@ -88,7 +88,7 @@ body {
   background-size: cover;
 }
 .home-container-child:hover{
-  box-shadow: 0px 0px 30px #ffffff4d;
+  box-shadow: 0px 0px 30px #de2d2d;
 }
 .home-container-child h1, p, .btn {
   animation: fadeIn 1s ease forwards;
